@@ -1,0 +1,38 @@
+class Person {
+  name: string;
+  age: int;
+  def Person(name: string, age: int) {
+    this.name = name;
+    this.age = age;
+  }
+  def void showName() {
+    print(this.name);
+    print("\n");
+  }
+}
+
+class Employee extends Person {
+  salary: int;
+  def Employee(name: string, age: int, salary: int) {
+    this.name = name;
+    this.age = age;
+    this.salary = salary;
+  }
+  def void showSalary() {
+    print("Salary is:");
+    print(this.salary);
+    print("\n");
+  }
+}
+
+class Main {
+  def Main() {
+    e: Employee;
+    p: Person;
+    e = new Employee("Hannah", 21, 3000);
+    e.showName();
+    e.showSalary();
+    p = new Person("Sophia", 30);
+    p.showName();
+  }
+}

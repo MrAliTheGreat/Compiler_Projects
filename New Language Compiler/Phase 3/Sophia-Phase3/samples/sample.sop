@@ -1,0 +1,18 @@
+class A{
+
+}
+
+class B extends A{
+
+}
+class Main{
+    def void f(a:B){
+
+    }
+    def Main(){
+        b:func<int,bool->void>;
+        a:func<int,bool->void>;
+        x:A;
+        this.f(x);
+    }
+}

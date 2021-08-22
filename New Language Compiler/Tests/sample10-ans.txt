@@ -1,0 +1,8 @@
+ClassDec:C1
+VarDec:a
+MethodDec:bar
+MethodDec:foo
+MethodDec:foo2
+ClassDec:C2
+ClassDec:Main
+ConstructorDec:Main

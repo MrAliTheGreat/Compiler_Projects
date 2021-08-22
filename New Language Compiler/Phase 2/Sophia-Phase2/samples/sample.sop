@@ -1,0 +1,5 @@
+class Main{
+    def Main(){
+        d = a.b[1][3].c[2].d;
+    }
+}

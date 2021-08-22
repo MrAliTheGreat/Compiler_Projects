@@ -1,0 +1,25 @@
+class C1 {
+    a:int;
+
+    def C2 bar(b:int) {
+
+    }
+
+    def func<int->int> foo(c:string, d:bool) {
+
+    }
+
+    def list(2 # int) foo2() {
+        
+    }
+}
+
+class C2 {
+
+}
+
+class Main{
+  def Main() {
+
+  }
+}
